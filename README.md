@@ -15,7 +15,14 @@ Current build status
 ====================
 
 
-<table>
+<table><tr>
+    <td>GitHub Actions</td>
+    <td>
+      <a href="https://github.com/conda-forge/tree-sitter-typescript-feedstock/actions/workflows/conda-build.yml">
+        <img src="https://github.com/conda-forge/tree-sitter-typescript-feedstock/actions/workflows/conda-build.yml/badge.svg?event=push&branch=main">
+      </a>
+    </td>
+  </tr>
     
   <tr>
     <td>Azure</td>
@@ -29,17 +36,17 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_64_is_python_mintruepython3.10.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=28270&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/tree-sitter-typescript-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_is_python_mintruepython3.10.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
               <td>osx_64_is_python_mintruepython3.10.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=28270&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/tree-sitter-typescript-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_is_python_mintruepython3.10.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_is_python_mintruepython3.10.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=28270&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/tree-sitter-typescript-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_is_python_mintruepython3.10.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -180,4 +187,5 @@ Feedstock Maintainers
 
 * [@killua156](https://github.com/killua156/)
 * [@mgorny](https://github.com/mgorny/)
+* [@rxm7706](https://github.com/rxm7706/)
 
